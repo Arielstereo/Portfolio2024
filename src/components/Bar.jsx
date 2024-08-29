@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Bar = () => {
   return (
-    <div className="absolute top-12 left-20 lg:left-32">
+    <div className="absolute top-12 left-4 lg:left-32">
       <div className="flex justify-around gap-4 items-center px-4 py-1">
         <Link
           href="/"

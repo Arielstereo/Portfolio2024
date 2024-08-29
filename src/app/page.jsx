@@ -10,10 +10,10 @@ const fontSubTitle = Michroma({ subsets: ["latin"], weight: "400" });
 
 export default function Home() {
   return (
-    <main className="flex flex-col lg:flex-row items-center justify-center mt-48 sm:mt-64 gap-16 sm:gap-32">
+    <main className="flex flex-col lg:flex-row items-center justify-center mt-32 sm:mt-64 gap-16 sm:gap-32">
       <div className="flex flex-col ml-8 gap-4">
         <h1
-          className={`${fontTitle.className} text-6xl sm:text-8xl text-slate-200 font-black`}
+          className={`${fontTitle.className} text-7xl sm:text-8xl text-slate-200 font-black`}
         >
           Ariel Martinez
         </h1>
