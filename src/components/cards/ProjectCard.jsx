@@ -10,6 +10,7 @@ import AstroBadge from "../badges/AstroBadge";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { useTranslations } from "next-intl";
 
 const ProjectCard = ({ img, description, url, name, tech1, tech2, tech3 }) => {
   useEffect(() => {
@@ -25,6 +26,9 @@ const ProjectCard = ({ img, description, url, name, tech1, tech2, tech3 }) => {
     Zustand: <ZustandBadge />,
     Astro: <AstroBadge />,
   };
+
+  const text = useTranslations("Project")
+
   return (
     <div data-aos="zoom-in-up" className="group flex flex-col justify-start items-start gap-2 w-96 h-56 relative p-4">
       <Image
@@ -48,7 +52,7 @@ const ProjectCard = ({ img, description, url, name, tech1, tech2, tech3 }) => {
         target="_blank"
         className="hover:bg-slate-900 hover:border hover:border-slate-50 bg-slate-300 text-gray-800 hover:text-gray-200 mt-2 rounded p-2 px-12"
       >
-        Website
+        {text("button")}
       </Link>
     </div>
   );

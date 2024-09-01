@@ -1,0 +1,80 @@
+{
+    "Home": {
+        "title1": "Desarrollador Web",
+        "title2": "Desarrollador Frontend",
+        "title3": "Programador"
+    },
+    "Bar": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "portfolio": "Proyectos",
+        "contact": "Contacto"
+    },
+    "Project":{
+        "button": "Sitio Web"
+    },
+    "Portfolio": {
+        "project1": {
+            "id": "1",
+            "name": "Tesla-Shop",
+            "img": "/projects/tesla.jpeg",
+            "description": "E-commerce realizado con Next.js, Zustand y Tailwind. Registración y autenticación de usuarios.",
+            "url": "https://tesla-shop-arielstereo.vercel.app/",
+            "tech1": "Next",
+            "tech2": "Tailwind",
+            "tech3": "Zustand"
+        },
+        "project2": {
+            "id": "2",
+            "name": "MP-Clon",
+            "img": "/projects/mp.jpeg",
+            "description": "Clon de Mercado pago, realizado con el stack MERN. Autenticación de usuarios, transacciones entre usuarios.",
+            "url": "https://mp-client-arielstereo.vercel.app/",
+            "tech1": "MERN",
+            "tech2": "Tailwind",
+            "tech3": "Zustand"
+        },
+        "project3": {
+            "id": "3",
+            "name": "EmprenDev",
+            "img": "/projects/emprendev.jpeg",
+            "description": "Sitio web sobre desarrollo web. Proyecto personal. Hecho con Astro y Tailwind.",
+            "url": "https://www.empren.dev/",
+            "tech1": "Astro",
+            "tech2": "Tailwind",
+            "tech3": ""
+        },
+        "project4": {
+            "id": "4",
+            "name": "Front-Management",
+            "img": "/projects/Fm.jpeg",
+            "description": "Crear proyectos frontend, CRUD, modo oscuro. Realizado con la librería NextUI.",
+            "url": "https://front-management.vercel.app/",
+            "tech1": "Next",
+            "tech2": "Tailwind",
+            "tech3": "Zustand"
+        },
+        "project5": {
+            "id": "5",
+            "name": "Dashboard",
+            "img": "/projects/dashboard.jpeg",
+            "description": "Dashboard simple, hecho con Next.js y Shadcn/ui. Autenticación de usuarios, panel de administración, estadísticas...",
+            "url": "https://dashboard-ariel-martinezs-projects.vercel.app/",
+            "tech1": "Next",
+            "tech2": "Tailwind",
+            "tech3": "Zustand"
+        }
+    },
+    "About": {
+        "description": " Me gusta el desarrollo web y aprender nuevas tecnologías. Como frontend he desarrollado varios proyectos tanto individualmente como en grupos de trabajo. Tengo experiencia con el stack MERN, también uso frameworks como Next.js, Astro. Me gusta Tailwind.css para los estilos.|"
+    },
+    "Contact": {
+        "title": "Contacto",
+        "inputName": "Ingresa tu nombre",
+        "inputEmail": "Ingresa tu correo electrónico",
+        "inputMessage": "Mensaje",
+        "button": "Enviar mensaje",
+        "loader": "Cargando...",
+        "toast": "Gracias por tu mensaje"
+    }
+}

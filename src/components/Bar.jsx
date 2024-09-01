@@ -1,6 +1,8 @@
-import Link from "next/link";
+import {Link} from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 
 const Bar = () => {
+  const text = useTranslations('Bar');
   return (
     <div className="absolute top-12 left-4 lg:left-32">
       <div className="flex justify-around gap-4 items-center px-4 py-1">
@@ -21,7 +23,7 @@ const Bar = () => {
             ></path>
           </svg>
           <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-4 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
-            Home
+            {text("home")}
           </div>
         </Link>
 
@@ -43,7 +45,7 @@ const Bar = () => {
           </svg>
 
           <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-4 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
-            About
+          {text("about")}
           </div>
         </Link>
         <Link
@@ -64,7 +66,7 @@ const Bar = () => {
           </svg>
 
           <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 transform scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
-            Portfolio
+          {text("portfolio")}
           </div>
         </Link>
         <Link
@@ -84,7 +86,7 @@ const Bar = () => {
             ></path>
           </svg>
           <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 transform scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
-            Contact
+          {text("contact")}
           </div>
         </Link>
       </div>
