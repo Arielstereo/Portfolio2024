@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 const Bar = () => {
   const text = useTranslations('Bar');
   return (
-    <div className="absolute top-12 left-4 lg:left-32">
+    <div className="absolute top-12 left-4 lg:left-16">
       <div className="flex justify-around gap-4 items-center px-4 py-1">
         <Link
           href="/"
@@ -22,7 +22,7 @@ const Bar = () => {
               fill="white"
             ></path>
           </svg>
-          <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-4 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
+          <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
             {text("home")}
           </div>
         </Link>
@@ -44,7 +44,7 @@ const Bar = () => {
             ></path>
           </svg>
 
-          <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-4 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
+          <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
           {text("about")}
           </div>
         </Link>
@@ -65,7 +65,7 @@ const Bar = () => {
             ></path>
           </svg>
 
-          <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 transform scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
+          <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 transform scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
           {text("portfolio")}
           </div>
         </Link>
@@ -85,7 +85,7 @@ const Bar = () => {
               fill="white"
             ></path>
           </svg>
-          <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 transform scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
+          <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 transform scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
           {text("contact")}
           </div>
         </Link>

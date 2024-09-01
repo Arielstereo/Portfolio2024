@@ -29,6 +29,13 @@ const Portfolio = () => {
           />
         </div>
       ))}
+      <div className="mt-12 lg:mt-48 text-center">
+        <h4 className="text-slate-400 lg:text-lg">
+        * Proyectos con login - email: {""}
+          <span className="lg:text-lg text-yellow-300">user@gmail.com</span> {""}
+          password: {""} <span className="lg:text-lg text-yellow-300">user123</span>
+        </h4>
+      </div>
     </div>
   );
 };
