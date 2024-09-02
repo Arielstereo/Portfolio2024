@@ -78,7 +78,7 @@
         "toast": "Gracias por tu mensaje"
     },
     "Terminal": {
-        "line1": "$ proyectos con login...",
+        "line1": "$ proyectos con login >",
         "line2": "+ proyectos en GitHub!"
     }
 }

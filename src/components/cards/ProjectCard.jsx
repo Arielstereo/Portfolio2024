@@ -24,17 +24,19 @@ const ProjectCard = ({ img, description, url, name, tech1, tech2, tech3 }) => {
         src={img}
         width={600}
         height={600}
-        className="absolute duration-700 shadow-md group-hover:-translate-y-16 group-hover:translate-x-48 -bottom-20 -right-6 w-1/2 group-hover:w-full group-hover:h-full h-1/2 rounded-lg"
+        className="absolute duration-700 shadow-md group-hover:-translate-y-16 group-hover:translate-x-48 -bottom-20 -right-8 w-1/2 group-hover:w-full group-hover:h-full h-1/2 rounded-lg"
         alt="image"
       />
       <div>
         <h2 className="text-2xl font-bold mb-2 text-slate-200">{name}</h2>
         <p className="text-gray-400 line-clamp-3">{description}</p>
       </div>
-      <div className="flex gap-2">
+      <div className="flex flex-wrap gap-2">
         {badges[tech1]}
         {badges[tech2]}
         {badges[tech3]}
+        {badges[tech1]}
+        {badges[tech2]}
       </div>
       <Link
         href={url}
