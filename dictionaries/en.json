@@ -76,5 +76,9 @@
         "button": "Send Message",
         "loader": "Loading...",
         "toast": "Thanks for your message"
+    },
+    "Terminal": {
+        "line1": "$ projects with login...",
+        "line2": "+ projects in Github!"
     }
 }
