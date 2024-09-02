@@ -14,12 +14,12 @@ export default function Home() {
     <main className="flex flex-col lg:flex-row items-center justify-center mt-32 sm:mt-56 gap-16 sm:gap-32">
       <div className="flex flex-col ml-8 gap-4">
         <h1
-          className={`${fontTitle.className} text-7xl sm:text-8xl text-slate-200 font-black`}
+          className={`${fontTitle.className} text-6xl sm:text-8xl text-slate-200 font-black`}
         >
           Ariel Martinez
         </h1>
         <div
-          className={`${fontSubTitle.className} text-sky-400 text-2xl sm:text-4xl ml-8`}
+          className={`${fontSubTitle.className} text-sky-400 text-xl sm:text-4xl ml-4`}
         >
           <Typewriter
             words={[
