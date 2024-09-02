@@ -3,13 +3,21 @@
 import { useTranslations } from "next-intl";
 import "atropos/css";
 import Atropos from "atropos/react";
+import Aos from "aos";
+import { useEffect } from "react";
 
 const TerminalCard = () => {
   const text = useTranslations("Terminal");
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  }, []);
+
 
   return (
     <Atropos >
-      <section className="bg-gradient-to-br from-slate-900 to-slate-600 text-white p-6 rounded-xl w-full font-mono mx-auto">
+      <section data-aos="zoom-in-up" className="bg-slate-950 text-slate-100 p-6 rounded-xl w-full font-mono mx-auto">
         <div className="flex justify-between items-center">
           <div className="flex space-x-2 text-red-500">
             <div className="w-3 h-3 rounded-full bg-red-500"></div>
