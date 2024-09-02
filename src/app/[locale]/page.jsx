@@ -19,7 +19,7 @@ export default function Home() {
           Ariel Martinez
         </h1>
         <div
-          className={`${fontSubTitle.className} text-sky-400 text-xl sm:text-4xl ml-4`}
+          className={`${fontSubTitle.className} text-sky-400 text-xl sm:text-4xl ml-6`}
         >
           <Typewriter
             words={[

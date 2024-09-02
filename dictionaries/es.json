@@ -30,7 +30,7 @@
             "img": "/projects/mp.jpeg",
             "description": "Clon de Mercado pago, realizado con el stack MERN. Autenticación de usuarios, transacciones entre usuarios.",
             "url": "https://mp-client-arielstereo.vercel.app/",
-            "tech1": "MERN",
+            "tech1": "React",
             "tech2": "Tailwind",
             "tech3": "Zustand"
         },
@@ -66,7 +66,7 @@
         }
     },
     "About": {
-        "description": "Estudiante de desarrollo web. Como FullStack realicé distintos proyectos con el stack MERN. Como frontend manejo distintas tecnologías, usando React, Next.js, Astro y Tailwind. Contribuí en proyectos con otros perfiles usando la metodología SCRUM. Manejo de Git para el control de versiones."
+        "description": "Estudiante de desarrollo web. Como FullStack realicé distintos proyectos con el stack MERN. Como frontend manejo distintas tecnologías: React, Next.js, Astro y Tailwind, entre otras. Contribuí en proyectos junto con otros perfiles usando la metodología SCRUM. Manejo de Git para el control de versiones."
     },
     "Contact": {
         "title": "Contacto",

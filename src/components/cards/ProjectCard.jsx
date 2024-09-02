@@ -2,15 +2,12 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import TailwindBadge from "../badges/TailwindBadge";
-import NextBadge from "../badges/NextBadge";
-import MernBadge from "../badges/MernBadge";
-import { ZustandBadge } from "../badges/ZustandBadge";
-import AstroBadge from "../badges/AstroBadge";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { useTranslations } from "next-intl";
+import badges from '@/components/BadgeList'
+
 
 const ProjectCard = ({ img, description, url, name, tech1, tech2, tech3 }) => {
   useEffect(() => {
@@ -18,14 +15,6 @@ const ProjectCard = ({ img, description, url, name, tech1, tech2, tech3 }) => {
       duration: 1000,
     });
   }, []);
-
-  const badges = {
-    Tailwind: <TailwindBadge />,
-    Next: <NextBadge />,
-    MERN: <MernBadge />,
-    Zustand: <ZustandBadge />,
-    Astro: <AstroBadge />,
-  };
 
   const text = useTranslations("Project")
 
