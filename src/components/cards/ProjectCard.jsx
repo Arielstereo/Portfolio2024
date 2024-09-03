@@ -9,7 +9,7 @@ import { useTranslations } from "next-intl";
 import badges from '@/components/BadgeList'
 
 
-const ProjectCard = ({ img, description, url, name, tech1, tech2, tech3 }) => {
+const ProjectCard = ({ img, description, url, name, tech1, tech2, tech3, tech4 }) => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -24,19 +24,18 @@ const ProjectCard = ({ img, description, url, name, tech1, tech2, tech3 }) => {
         src={img}
         width={600}
         height={600}
-        className="absolute duration-700 shadow-md group-hover:-translate-y-16 group-hover:translate-x-48 -bottom-20 -right-8 w-1/2 group-hover:w-full group-hover:h-full h-1/2 rounded-lg"
+        className="absolute duration-700 shadow-md group-hover:-translate-y-16 group-hover:translate-x-12 -bottom-20 -right-2 w-1/2 group-hover:w-full group-hover:h-full h-1/2 rounded-lg"
         alt="image"
       />
-      <div>
+      <div className="w-full mb-2">
         <h2 className="text-2xl font-bold mb-2 text-slate-200">{name}</h2>
-        <p className="text-gray-400 line-clamp-3">{description}</p>
+        <p className="text-slate-400">{description}</p>
       </div>
       <div className="flex flex-wrap gap-2">
         {badges[tech1]}
         {badges[tech2]}
         {badges[tech3]}
-        {badges[tech1]}
-        {badges[tech2]}
+        {badges[tech4]}
       </div>
       <Link
         href={url}

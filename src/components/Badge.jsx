@@ -1,12 +1,10 @@
-const Badge = ({className, title}) => {
+const Badge = ({ className, title, icon }) => {
   return (
-    <button
-    className= {className}
-  
-  >
-    {title}
-  </button>
-  )
-}
+    <div className={className}>
+      {icon}
+      {title}
+    </div>
+  );
+};
 
-export default Badge
+export default Badge;

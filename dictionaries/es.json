@@ -2,7 +2,7 @@
     "Home": {
         "title1": "Desarrollador Web",
         "title2": "Desarrollador Frontend",
-        "title3": "Programador"
+        "title3": "Desarrollador Fullstack"
     },
     "Bar": {
         "home": "Inicio",
@@ -18,55 +18,60 @@
             "id": "1",
             "name": "Tesla-Shop",
             "img": "/projects/tesla.jpeg",
-            "description": "E-commerce realizado con Next.js, Zustand y Tailwind. Registración y autenticación de usuarios.",
+            "description": "Clon Tesla. E-commerce. Autenticación de usuarios, carrito de compras, modo oscuro, diseño adaptable.",
             "url": "https://tesla-shop-arielstereo.vercel.app/",
             "tech1": "Next",
             "tech2": "Tailwind",
-            "tech3": "Zustand"
+            "tech3": "Zustand",
+            "tech4": "Vercel"
         },
         "project2": {
             "id": "2",
             "name": "MP-Clon",
             "img": "/projects/mp.jpeg",
-            "description": "Clon de Mercado pago, realizado con el stack MERN. Autenticación de usuarios, transacciones entre usuarios.",
+            "description": "Clon de Mercado pago. Stack MERN. Autenticación de usuarios, transacciones entre usuarios. Diseño adaptable.",
             "url": "https://mp-client-arielstereo.vercel.app/",
             "tech1": "React",
-            "tech2": "Tailwind",
-            "tech3": "Zustand"
+            "tech2": "Mongo",
+            "tech3": "Express",
+            "tech4": "Vercel"
         },
         "project3": {
             "id": "3",
             "name": "EmprenDev",
             "img": "/projects/emprendev.jpeg",
-            "description": "Sitio web sobre desarrollo web. Proyecto personal. Hecho con Astro y Tailwind.",
+            "description": "Landing page sobre desarrollo de páginas web, proyecto freelance. Modo oscuro, diseño adaptable.",
             "url": "https://www.empren.dev/",
             "tech1": "Astro",
             "tech2": "Tailwind",
-            "tech3": ""
+            "tech3": "React",
+            "tech4": "Vercel"
         },
         "project4": {
             "id": "4",
             "name": "Front-Management",
             "img": "/projects/Fm.jpeg",
-            "description": "Crear proyectos frontend, CRUD, modo oscuro. Realizado con la librería NextUI.",
+            "description": "Proyecto realizado con la librería de componentes de NextUI. CRUD para organizar proyectos. Modo oscuro.",
             "url": "https://front-management.vercel.app/",
             "tech1": "Next",
             "tech2": "Tailwind",
-            "tech3": "Zustand"
+            "tech3": "Zustand",
+            "tech4": "Vercel"
         },
         "project5": {
             "id": "5",
             "name": "Dashboard",
             "img": "/projects/dashboard.jpeg",
-            "description": "Dashboard simple, hecho con Next.js y Shadcn/ui. Autenticación de usuarios, panel de administración, estadísticas...",
+            "description": "Dashboard realizado con Shadcn/ui. Autenticación de usuarios, panel de administración. Modo oscuro.",
             "url": "https://dashboard-ariel-martinezs-projects.vercel.app/",
             "tech1": "Next",
             "tech2": "Tailwind",
-            "tech3": "Zustand"
+            "tech3": "Mongo",
+            "tech4": "Vercel"
         }
     },
     "About": {
-        "description": "Estudiante de desarrollo web. Como FullStack realicé distintos proyectos con el stack MERN. Como frontend manejo distintas tecnologías: React, Next.js, Astro y Tailwind, entre otras. Contribuí en proyectos junto con otros perfiles usando la metodología SCRUM. Manejo de Git para el control de versiones."
+        "description": "Desarrollador web. Como FullStack realicé distintos proyectos con el stack MERN. Como frontend manejo distintas tecnologías: React, Next.js, Astro y Tailwind, entre otras. Contribuí en proyectos junto con otros perfiles usando la metodología SCRUM. Manejo de Git para el control de versiones."
     },
     "Contact": {
         "title": "Contacto",

@@ -27,6 +27,7 @@ const Portfolio = () => {
             tech1={text(`${key}.tech1`)}
             tech2={text(`${key}.tech2`)}
             tech3={text(`${key}.tech3`)}
+            tech4={text(`${key}.tech4`)}
           />
         </div>
       ))}

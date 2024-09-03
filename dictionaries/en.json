@@ -1,8 +1,8 @@
 {
     "Home": {
-        "title1": "Web developer",
+        "title1": "Web Developer",
         "title2": "Frontend Developer",
-        "title3": "Programmer"
+        "title3": "FullStack Developer"
     },
     "Bar": {
         "home": "Home",
@@ -18,55 +18,60 @@
             "id": "1",
             "name": "Tesla-Shop",
             "img": "/projects/tesla.jpeg",
-            "description": "E-commerce made with Next.js, Zustand and Tailwind. User register and authentication.",
+            "description": "Tesla clon. E-commerce. User authentication, shopping cart, dark-mode, responsive design.",
             "url": "https://tesla-shop-arielstereo.vercel.app/",
             "tech1": "Next",
             "tech2": "Tailwind",
-            "tech3": "Zustand"
+            "tech3": "Zustand",
+            "tech4": "Vercel"
         },
         "project2": {
             "id": "2",
             "name": "MP-Clon",
             "img": "/projects/mp.jpeg",
-            "description": "Mercado pago clone, realized with the MERN stack. User authentication, transactions between users.",
+            "description": "Mercado pago clone.MERN stack. User authentication, transactions between users. Responsive design.",
             "url": "https://mp-client-arielstereo.vercel.app/",
             "tech1": "React",
-            "tech2": "Tailwind",
-            "tech3": "Zustand"
+            "tech2": "Mongo",
+            "tech3": "Express",
+            "tech4": "Vercel"
         },
         "project3": {
             "id": "3",
             "name": "EmprenDev",
             "img": "/projects/emprendev.jpeg",
-            "description": "Website about web development. Personal project. Made with Astro and Tailwind.",
+            "description": "Landing page about web development, freelance work. Dark mode, responsive design.",
             "url": "https://www.empren.dev/",
             "tech1": "Astro",
             "tech2": "Tailwind",
-            "tech3": ""
+            "tech3": "React",
+            "tech4": "Vercel"
         },
         "project4": {
             "id": "4",
             "name": "Front-Management",
             "img": "/projects/Fm.jpeg",
-            "description": "Create frontend projects, CRUD, Dark mode. Realized with NextUI library.",
+            "description": "Project realized with the NextUI component library. CRUD to organize projects. Dark mode.",
             "url": "https://front-management.vercel.app/",
             "tech1": "Next",
             "tech2": "Tailwind",
-            "tech3": "Zustand"
+            "tech3": "Zustand",
+            "tech4": "Vercel"
         },
         "project5": {
             "id": "5",
             "name": "Dashboard",
             "img": "/projects/dashboard.jpeg",
-            "description": "Simple Dashboard, made with Next.js and Shadcn/ui. User authentication, administration panel, statistics..",
+            "description": "Dashboard realized with Shadcn/ui. User authentication, administration panel. Dark mode.",
             "url": "https://dashboard-ariel-martinezs-projects.vercel.app/",
             "tech1": "Next",
             "tech2": "Tailwind",
-            "tech3": "Zustand"
+            "tech3": "Zustand",
+            "tech4": "Vercel"
         }
     },
     "About": {
-        "description": "Web development student. As a FullStack I did different projects with the MERN stack. As frontend I manage different technologies: React, Next.js, Astro and Tailwind, among others. I contributed in projects together with other profiles using the SCRUM methodology. I use Git for version control."
+        "description": "Web developer. As a FullStack I did different projects with the MERN stack. As frontend I manage different technologies: React, Next.js, Astro and Tailwind, among others. I contributed in projects together with other profiles using the SCRUM methodology. I use Git for version control."
     },
     "Contact": {
         "title": "Contact me",
