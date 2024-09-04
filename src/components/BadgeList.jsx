@@ -33,13 +33,13 @@ const badges = {
   ),
   Mongo: (
     <Badge
-      className="text-white bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:bg-gradient-to-br font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+      className="text-black bg-gradient-to-r from-green-800 via-green-300 to-green-700 hover:bg-gradient-to-br font-medium rounded-full text-sm px-3 py-2.5 text-center mr-2 mb-2"
       title="Mongo DB"
     />
   ),
   Express: (
     <Badge
-      className="text-white bg-gradient-to-r from-yellow-700 via-yellow-600 to-yellow-400 hover:bg-gradient-to-br font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+      className="text-black bg-gradient-to-r from-yellow-600 via-yellow-300 to-yellow-400 hover:bg-gradient-to-br font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
       title="Express"
     />
   ),

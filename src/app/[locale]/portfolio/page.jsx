@@ -8,7 +8,7 @@ const Portfolio = () => {
   const keys = ["project1", "project2", "project3", "project4", "project5"];
 
   return (
-    <div className="flex flex-col gap-32 xl:gap-2 mx-2 sm:mx-32 md:mx-80 mt-48">
+    <div className="flex flex-col gap-48 xl:gap-2 mx-2 sm:mx-32 md:mx-80 mt-48">
       {keys.map((key) => (
         <div
           key={key}

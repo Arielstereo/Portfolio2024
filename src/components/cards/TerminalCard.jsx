@@ -15,9 +15,9 @@ const TerminalCard = () => {
   }, []);
 
   return (
-    <Atropos className="w-[360px] lg:w-[500px] mx-auto">
+    <Atropos className="w-[320px] lg:w-[500px] mx-auto">
       <div
-        className="mx-auto w-[360px] lg:w-[500px] bg-gray-950 rounded-xl overflow-hidden drop-shadow-xl"
+        className="mx-auto w-[320px] lg:w-[500px] bg-gray-950 rounded-xl overflow-hidden drop-shadow-xl"
         data-aos="zoom-in-up"
       >
         <div className="bg-[#333] flex items-center p-[5px] text-whitec relative">
