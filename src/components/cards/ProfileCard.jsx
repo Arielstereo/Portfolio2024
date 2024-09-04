@@ -22,7 +22,7 @@ const ProfileCard = () => {
         <p className="text-slate-50">{text("title1")}</p>
       </div>
       <Link
-        className="bg-blue-500 flex gap-2 shadow-md shadow-black px-6 py-2 text-slate-50 rounded-md z-10 hover:scale-110 transition-all duration-500 hover:bg-slate-900"
+        className="bg-blue-500 flex gap-2 shadow-md shadow-black px-6 py-3 text-slate-50 rounded-md z-10 hover:scale-110 transition-all duration-500 hover:bg-slate-900"
         href="https://cv.empren.dev/"
         target="_blank"
       >
