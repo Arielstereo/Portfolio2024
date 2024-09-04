@@ -1,7 +1,9 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
 const ProfileCard = () => {
+  const text = useTranslations("Home")
   return (
     <div className="group before:hover:scale-95 before:hover:h-80 before:hover:w-80 before:hover:rounded-b-2xl before:transition-all before:duration-500 before:content-[''] before:w-80 before:h-24 before:rounded-t-2xl before:bg-gradient-to-bl from-sky-200 via-blue-400 to-sky-700 before:absolute before:top-0 w-80 h-80 relative bg-slate-50 flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden">
       <div className="w-28 h-28 mt-8 rounded-full border-4 border-slate-50 z-10 group-hover:scale-95 group-hover:-translate-x-0  group-hover:-translate-y-10 transition-all duration-500">
@@ -17,7 +19,7 @@ const ProfileCard = () => {
         <span className="text-2xl text-slate-800 font-semibold">
           Ariel Martinez
         </span>
-        <p className="text-slate-50">Web Developer</p>
+        <p className="text-slate-50">{text("title1")}</p>
       </div>
       <Link
         className="bg-blue-500 flex gap-2 shadow-md shadow-black px-6 py-2 text-slate-50 rounded-md z-10 hover:scale-110 transition-all duration-500 hover:bg-slate-900"
