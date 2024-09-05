@@ -3,8 +3,8 @@ import Image from "next/image";
 const SkillsCard = () => {
   return (
     <div className="relative h-full w-full flex items-center justify-center">
-      <div className="relative p-10 border-2 border-dashed rounded-full border-spacing-4 border-gray-400/50">
-        <button className="left-[45px] -top-[4px] absolute group rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500 animate-pulse">
+      <div className="relative p-10 border-2 border-dashed rounded-full border-spacing-4 border-slate-400/50">
+        <button className="left-[45px] -top-[4px] absolute group rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500 animate-spin-slow">
           <span className="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] bg-white p-1">
             <svg viewBox="0 0 128 128">
               <g fill="#61DAFB">
