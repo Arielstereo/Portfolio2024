@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const ProfileCard = () => {
-  const text = useTranslations("Home")
+  const text = useTranslations("Home");
   return (
     <div className="group before:hover:scale-95 before:hover:h-80 before:hover:w-80 before:hover:rounded-b-2xl before:transition-all before:duration-500 before:content-[''] before:w-80 before:h-24 before:rounded-t-2xl before:bg-gradient-to-bl from-sky-200 via-blue-400 to-sky-700 before:absolute before:top-0 w-80 h-80 relative bg-slate-50 flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden">
       <div className="w-28 h-28 mt-8 rounded-full border-4 border-slate-50 z-10 group-hover:scale-95 group-hover:-translate-x-0  group-hover:-translate-y-10 transition-all duration-500">
@@ -16,42 +16,42 @@ const ProfileCard = () => {
         />
       </div>
       <div className="z-10  group-hover:-translate-y-10 transition-all duration-500">
-        <span className="text-2xl text-slate-800 font-semibold">
+        <span className="text-2xl text-slate-800">
           Ariel Martinez
         </span>
-        <p className="text-slate-50">{text("title1")}</p>
+        <p className="text-slate-50 text-lg">{text("title1")}</p>
       </div>
       <Link
-        className="bg-slate-900 flex gap-2 shadow-md shadow-black px-6 py-3 text-slate-50 rounded-md z-10 hover:scale-105 transition-all duration-500 hover:ring ring-white hover:bg-slate-950"
+        className="bg-slate-900 text-center w-48 rounded-2xl h-14 relative text-black text-xl font-semibold group"
         href="https://cv.empren.dev/"
         target="_blank"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 20 20"
-        >
-          <g fill="#FFF">
-            <path d="M7.8 6.35c.56 0 1.01-.45 1.01-1.01S8.36 4.33 7.8 4.33s-1.01.45-1.01 1.01s.45 1.01 1.01 1.01" />
-            <path
-              fillRule="evenodd"
-              d="M9.83 8.55c0-1.08-.91-1.86-2.03-1.86s-2.03.78-2.03 1.86v.51c0 .09.04.18.1.24s.15.1.24.1h3.38c.09 0 .18-.04.24-.1s.1-.15.1-.24zM5.75 11.5a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1-.75-.75m0 3a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1-.75-.75"
-              clipRule="evenodd"
-            />
-            <path
-              fillRule="evenodd"
-              d="M2.5 2.5c0-1.102.898-2 2-2h6.69c.562 0 1.092.238 1.465.631l.006.007l4.312 4.702c.359.383.527.884.527 1.36v10.3c0 1.102-.898 2-2 2h-11c-1.102 0-2-.898-2-2zm8.689 0H4.5v15h11V7.192l-4.296-4.685l-.003-.001z"
-              clipRule="evenodd"
-            />
-            <path
-              fillRule="evenodd"
-              d="M11.19.5a1 1 0 0 1 1 1v4.7h4.31a1 1 0 1 1 0 2h-5.31a1 1 0 0 1-1-1V1.5a1 1 0 0 1 1-1"
-              clipRule="evenodd"
-            />
-          </g>
-        </svg>
-        CV Online
+        <div className="bg-slate-950 rounded-xl h-12 w-1/4 flex items-center justify-center absolute left-1 top-[4px] group-hover:w-[184px] z-10 duration-500">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <g fill="none" stroke="#ffffff" strokeWidth="1.5">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10"
+              />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13 2.05S16 6 16 12m-5 9.95S8 18 8 12s3-9.95 3-9.95M2.63 15.5H12m-9.37-7h18.74"
+              />
+              <path
+                d="M21.879 17.917c.494.304.463 1.043-.045 1.101l-2.567.291l-1.151 2.312c-.228.459-.933.234-1.05-.334l-1.255-6.116c-.099-.48.333-.782.75-.525z"
+                clipRule="evenodd"
+              />
+            </g>
+          </svg>
+        </div>
+        <p className="translate-x-2 mt-3 ml-2 text-slate-100 text-lg">CV online</p>
       </Link>
     </div>
   );

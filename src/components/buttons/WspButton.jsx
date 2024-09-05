@@ -4,7 +4,7 @@ const WspButton = () => {
   return (
     <section className="flex justify-center items-center">
       <Link
-        className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-green-400 text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+        className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-green-600 text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
         href="https://api.whatsapp.com/send?phone=+5491126922128&text=Hola%20Ariel!%20"
         target="_blank"
       >

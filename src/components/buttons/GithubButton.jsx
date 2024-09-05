@@ -4,7 +4,7 @@ const GithubButton = () => {
   return (
     <section className="flex justify-center items-center">
       <Link
-        className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gray-600 text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+        className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-slate-800 text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
         href="https://github.com/Arielstereo"
         target="_blank"
         

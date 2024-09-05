@@ -4,7 +4,7 @@ const EmailButton = () => {
   return (
     <section className="flex justify-center items-center">
       <Link
-        className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-red-500 text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+        className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-red-600 text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
         href="mailto:arielstereo@msn.com"
         target="_blank"
       >
