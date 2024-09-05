@@ -31,7 +31,7 @@ const Portfolio = () => {
           />
         </div>
       ))}
-      <div className="mt-12 lg:mt-48 text-center">
+      <div className="mt-12 lg:mb-32 lg:mt-48 text-center">
         <TerminalCard />
       </div>
     </div>
