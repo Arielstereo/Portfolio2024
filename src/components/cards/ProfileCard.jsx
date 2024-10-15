@@ -5,14 +5,14 @@ import Link from "next/link";
 const ProfileCard = () => {
   const text = useTranslations("Home");
   return (
-    <div className="group before:hover:scale-95 before:hover:h-80 before:hover:w-80 before:hover:rounded-b-2xl before:transition-all before:duration-500 before:content-[''] before:w-80 before:h-24 before:rounded-t-2xl before:bg-gradient-to-bl from-sky-200 via-blue-400 to-sky-700 before:absolute before:top-0 w-80 h-80 relative bg-slate-50 flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden">
+    <div className="group before:hover:scale-95 before:hover:h-80 before:hover:w-80 before:hover:rounded-b-2xl before:transition-all before:duration-500 before:content-[''] before:w-80 before:h-24 before:rounded-t-2xl before:bg-gradient-to-bl from-cyan-100 via-cyan-500 to-sky-600 before:absolute before:top-0 w-80 h-80 relative bg-slate-50 flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden">
       <div className="w-28 h-28 mt-8 rounded-full border-4 border-slate-50 z-10 group-hover:scale-95 group-hover:-translate-x-0  group-hover:-translate-y-10 transition-all duration-500">
         <Image
-          src="/foto_perfil.png"
+          src="/perfil.png"
           alt="photo"
           width={300}
           height={300}
-          className="rounded-full"
+          className="rounded-full w-full h-full object-coverl"
         />
       </div>
       <div className="z-10  group-hover:-translate-y-10 transition-all duration-500">
@@ -26,7 +26,7 @@ const ProfileCard = () => {
         href="https://cv.empren.dev/"
         target="_blank"
       >
-        <div className="bg-slate-950 rounded-xl h-12 w-1/4 flex items-center justify-center absolute left-1 top-[4px] group-hover:w-[184px] z-10 duration-500">
+        <div className="bg-slate-950 rounded-xl h-12 w-1/4 flex items-center justify-center absolute left-1 top-[4px] group-hover:w-[184px] z-10 duration-500 border-2 border-sky-300">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"

@@ -42,11 +42,10 @@ const ProjectCard = ({
         <h2 className="text-2xl font-bold mb-2 text-slate-200">{name}</h2>
         <p className="text-slate-400">{description}</p>
       </div>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2 mb-12">
         {badges[tech1]}
         {badges[tech2]}
         {badges[tech3]}
-        {badges[tech4]}
       </div>
       <Link
         href={url}
