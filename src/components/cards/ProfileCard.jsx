@@ -8,11 +8,11 @@ const ProfileCard = () => {
     <div className="group before:hover:scale-95 before:hover:h-80 before:hover:w-80 before:hover:rounded-b-2xl before:transition-all before:duration-500 before:content-[''] before:w-80 before:h-24 before:rounded-t-2xl before:bg-gradient-to-bl from-cyan-100 via-cyan-500 to-sky-600 before:absolute before:top-0 w-80 h-80 relative bg-slate-50 flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden">
       <div className="w-28 h-28 mt-8 rounded-full border-4 border-slate-50 z-10 group-hover:scale-95 group-hover:-translate-x-0  group-hover:-translate-y-10 transition-all duration-500">
         <Image
-          src="/perfil.png"
+          src="/avatar.jpeg"
           alt="photo"
           width={300}
           height={300}
-          className="rounded-full w-full h-full object-coverl"
+          className="rounded-full w-full h-full object-cover"
         />
       </div>
       <div className="z-10  group-hover:-translate-y-10 transition-all duration-500">
