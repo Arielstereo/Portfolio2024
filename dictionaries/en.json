@@ -22,8 +22,7 @@
             "url": "https://tesla-shop-arielstereo.vercel.app/",
             "tech1": "Next",
             "tech2": "Tailwind",
-            "tech3": "Zustand",
-            "tech4": "Vercel"
+            "tech3": "Zustand"
         },
         "project2": {
             "id": "2",
@@ -33,8 +32,7 @@
             "url": "https://mp-client-arielstereo.vercel.app/",
             "tech1": "React",
             "tech2": "Mongo",
-            "tech3": "Express",
-            "tech4": "Vercel"
+            "tech3": "Express"
         },
         "project3": {
             "id": "3",
@@ -44,8 +42,7 @@
             "url": "https://www.empren.dev/",
             "tech1": "Astro",
             "tech2": "Tailwind",
-            "tech3": "React",
-            "tech4": "Vercel"
+            "tech3": "React"
         },
         "project4": {
             "id": "4",
@@ -55,8 +52,7 @@
             "url": "https://front-management.vercel.app/",
             "tech1": "Next",
             "tech2": "Tailwind",
-            "tech3": "Zustand",
-            "tech4": "Vercel"
+            "tech3": "Zustand"
         },
         "project5": {
             "id": "5",
@@ -66,8 +62,17 @@
             "url": "https://dashboard-ariel-martinezs-projects.vercel.app/",
             "tech1": "Next",
             "tech2": "Tailwind",
-            "tech3": "Zustand",
-            "tech4": "Vercel"
+            "tech3": "Zustand"
+        },
+        "project6": {
+            "id": "6",
+            "name": "DonAr",
+            "img": "/projects/donar.jpeg",
+            "description": "Project on blood donations. Donor and patient registry. Notifications by mail.",
+            "url": "https://donar-three.vercel.app/",
+            "tech1": "Next",
+            "tech2": "Tailwind",
+            "tech3": "Mongo"
         }
     },
     "About": {
