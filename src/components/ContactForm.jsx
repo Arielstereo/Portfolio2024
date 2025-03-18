@@ -2,8 +2,23 @@
 
 import axios from "axios";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { useState } from "react";
 import { toast } from "sonner";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { ShineBorder } from "./magicui/shine-border";
+import { BorderBeam } from "./magicui/border-beam";
+import { Textarea } from "./ui/textarea";
 
 const ContactForm = () => {
   const [data, setData] = useState({
@@ -48,77 +63,109 @@ const ContactForm = () => {
     }
   };
   return (
-    <div className="flex flex-col items-center justify-center">
-      <div className="w-full max-w-md  rounded-lg shadow-md p-6">
-        <h2 className="text-3xl font-bold text-gray-200 mb-4">
-          {text("title")}
-        </h2>
-
-        <form onSubmit={sendEmail} className="flex flex-col">
-          <input
-            placeholder={text("inputName")}
-            className="bg-gray-900 text-gray-200 border-0 rounded-md p-4 mb-4 focus:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
-            type="text"
-            name="username"
-            value={data.username}
-            onChange={handleChange}
-            required
-          />
-          <input
-            placeholder={text("inputEmail")}
-            className="bg-gray-900 text-gray-200 border-0 rounded-md p-4 mb-4 focus:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
-            type="email"
-            name="email"
-            value={data.email}
-            onChange={handleChange}
-            required
-          />
-          <textarea
-            rows="6"
-            maxLength="350"
-            placeholder={text("inputMessage")}
-            className="bg-gray-900 text-gray-200 border-0 rounded-md p-4 mb-4 focus:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
-            value={data.message}
-            name="message"
-            onChange={handleChange}
-            required
-          ></textarea>
-          <button
-            disabled={isLoading}
-            className={
-              isLoading
-                ? "bg-gradient-to-r from-slate-800 to-slate-400 text-slate-50 font-bold py-3 px-4 rounded-md mt-2"
-                : "bg-gradient-to-r hover:bg-gradient-to-br from-blue-600 via-sky-600 to-sky-300 text-slate-50 font-bold py-3 px-4 rounded-md mt-2  transition ease-in-out duration-150"
-            }
-            type="submit"
-          >
-            {isLoading ? (
-              <div className="flex items-center justify-center gap-2 text-slate-200">
-                <svg
-                  className="animate-spin"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="none"
-                    stroke="#FFF"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M12 2v4m4.2 1.8l2.9-2.9M18 12h4m-5.8 4.2l2.9 2.9M12 18v4m-7.1-2.9l2.9-2.9M2 12h4M4.9 4.9l2.9 2.9"
-                  />
-                </svg>
-                <span>{text("loader")}</span>
-              </div>
-            ) : (
-              `${text("button")}`
-            )}
-          </button>
-        </form>
-      </div>
+  <div className="flex flex-col md:flex-row gap-8 justify-center items-center md:items-start">
+    <div className="mt-10">
+    <Image
+    src="/avatar.jpeg"
+    alt="avatar"
+    width={300}
+    height={300}
+    className="rounded-xl w-28 md:w-32"
+  />
     </div>
+    <div className="flex flex-col items-center justify-center">
+      <Card className="relative w-[400px] p-4 overflow-hidden bg-transparent border-none">
+        <CardHeader>
+          <CardTitle className="text-2xl md:text-3xl font-bold text-gray-200 mb-4">
+            {text("title")}
+          </CardTitle>
+          <CardDescription>
+            {text("subtitle")}
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <form onSubmit={sendEmail} className="flex flex-col w-full">
+            <div className="grid w-full items-center gap-4">
+              <div className="flex flex-col space-y-1.5">
+                <Label className="text-white" htmlFor="email">
+                  {text("labelName")}
+                </Label>
+                <Input
+                  placeholder={text("inputName")}
+                  type="text"
+                  name="username"
+                  value={data.username}
+                  onChange={handleChange}
+                  required
+                  className="text-white"
+                />
+              </div>
+              <div className="flex flex-col space-y-1.5">
+                <Label className="text-white" htmlFor="password">
+                  {text("labelEmail")}
+                </Label>
+                <Input
+                  placeholder={text("inputEmail")}
+                  type="email"
+                  name="email"
+                  value={data.email}
+                  onChange={handleChange}
+                  required
+                  className="text-white"
+                />
+              </div>
+              <div className="flex flex-col space-y-1.5">
+                <Label className="text-white" htmlFor="password">
+                  {text("labelMessage")}
+                </Label>
+                <Textarea
+                  rows="6"
+                  maxLength="350"
+                  placeholder={text("inputMessage")}
+                  value={data.message}
+                  name="message"
+                  onChange={handleChange}
+                  required
+                  className="text-white"
+                ></Textarea>
+              </div>
+              <Button
+                disabled={isLoading}
+                variant="outline"
+                className={isLoading ? "bg-gray-500" : ""}
+                type="submit"
+              >
+                {isLoading ? (
+                  <div className="flex items-center justify-center gap-2 text-slate-200">
+                    <svg
+                      className="animate-spin"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="#FFF"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M12 2v4m4.2 1.8l2.9-2.9M18 12h4m-5.8 4.2l2.9 2.9M12 18v4m-7.1-2.9l2.9-2.9M2 12h4M4.9 4.9l2.9 2.9"
+                      />
+                    </svg>
+                    <span>{text("loader")}</span>
+                  </div>
+                ) : (
+                  `${text("button")}`
+                )}
+              </Button>
+            </div>
+          </form>
+        </CardContent>
+        <BorderBeam duration={8} size={100} />
+      </Card>
+    </div>
+  </div>
   );
 };
 

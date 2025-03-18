@@ -6,7 +6,7 @@ import WspButton from "./buttons/WspButton";
 const Footer = () => {
   return (
     <div className="flex justify-center mt-32 mb-8 lg:mt-0 lg:fixed lg:right-16 lg:top-96">
-      <div className="flex lg:flex-col gap-12">
+      <div className="flex lg:flex-col gap-8">
       <LinkedinButton />
       <GithubButton />
       <EmailButton />

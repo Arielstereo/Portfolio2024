@@ -2,7 +2,9 @@
     "Home": {
         "title1": "Web Developer",
         "title2": "Frontend Developer",
-        "title3": "FullStack Developer"
+        "title3": "FullStack Developer",
+        "CV": "Download CV",
+        "circle": "FRONTEND*REACT*DEVELOPER*"
     },
     "Bar": {
         "home": "Home",
@@ -10,10 +12,12 @@
         "portfolio": "Portfolio",
         "contact": "Contact"
     },
-    "Project":{
+    "Project": {
         "button": "Website"
     },
     "Portfolio": {
+        "subtitle": "Projects with login:",
+        "github": "More projects in",
         "project1": {
             "id": "1",
             "name": "Tesla-Shop",
@@ -76,16 +80,21 @@
         }
     },
     "About": {
-        "description": "Web developer. As a FullStack I did different projects with the MERN stack. As frontend I manage different technologies: React, Next.js, Astro and Tailwind, among others. I contributed in projects together with other profiles using the SCRUM methodology. I use Git for version control."
+        "description": "Web developer. As a FullStack I did different projects with the MERN stack. As frontend I manage different technologies: React, Next.js, Astro and Tailwind, among others. I contributed in projects together with other profiles using the SCRUM methodology. I use Git for version control.",
+        "skills": "Skills"
     },
     "Contact": {
         "title": "Contact me",
+        "subtitle": "If you want to contact me, you can send me a message here.",
         "inputName": "Enter your name",
         "inputEmail": "Enter your email address",
         "inputMessage": "Message",
         "button": "Send Message",
         "loader": "Loading...",
-        "toast": "Thanks for your message"
+        "toast": "Thanks for your message",
+        "labelName": "Name",
+        "labelEmail": "Email",
+        "labelMessage": "Message"
     },
     "Terminal": {
         "line1": "$ projects with login:",

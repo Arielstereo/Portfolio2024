@@ -2,7 +2,9 @@
     "Home": {
         "title1": "Desarrollador Web",
         "title2": "Desarrollador Frontend",
-        "title3": "Desarrollador Fullstack"
+        "title3": "Desarrollador Fullstack",
+        "CV": "Descargar CV",
+        "circle": "FRONTEND*REACT*DESARROLLADOR*"
     },
     "Bar": {
         "home": "Inicio",
@@ -10,10 +12,12 @@
         "portfolio": "Proyectos",
         "contact": "Contacto"
     },
-    "Project":{
+    "Project": {
         "button": "Sitio Web"
     },
     "Portfolio": {
+        "subtitle": "Proyectos con login:",
+        "github": "Más proyectos en",
         "project1": {
             "id": "1",
             "name": "Tesla-Shop",
@@ -76,16 +80,21 @@
         }
     },
     "About": {
-        "description": "Desarrollador web. Como FullStack realicé distintos proyectos con el stack MERN. Como frontend manejo distintas tecnologías: React, Next.js, Astro y Tailwind, entre otras. Contribuí en proyectos junto con otros perfiles usando la metodología SCRUM. Manejo de Git para el control de versiones."
+        "description": "Desarrollador web. Como FullStack realicé distintos proyectos con el stack MERN. Como frontend manejo distintas tecnologías: React, Next.js, Astro y Tailwind, entre otras. Contribuí en proyectos junto con otros perfiles usando la metodología SCRUM. Manejo de Git para el control de versiones.",
+        "skills": "Tecnologías"
     },
     "Contact": {
         "title": "Contacto",
+        "subtitle": "Envia un mensaje,te contestaré a la brevedad.",
         "inputName": "Ingresa tu nombre",
         "inputEmail": "Ingresa tu correo electrónico",
         "inputMessage": "Mensaje",
         "button": "Enviar mensaje",
         "loader": "Cargando...",
-        "toast": "Gracias por tu mensaje"
+        "toast": "Gracias por tu mensaje",
+        "labelName": "Nombre",
+        "labelEmail": "Correo electrónico",
+        "labelMessage": "Mensaje"
     },
     "Terminal": {
         "line1": "$ proyectos con login:",
