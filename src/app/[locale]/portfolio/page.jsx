@@ -48,17 +48,16 @@ const Portfolio = () => {
           </div>
         ))}
       </div>
-      <span className="text-xl md:text-3xl text-slate-100 my-32">
-        {" "}
-        {text("github")}{" "}
+      <span className="text-xl md:text-3xl text-slate-100 my-8">
+        {text("github")} {" "}
         <Link
           href="https://github.com/Arielstereo?tab=repositories"
           target="_blank"
-          className="text-yellow-200 hover:text-yellow-400"
+          className="text-slate-400 hover:text-slate-300 animate-pulse" 
         >
           GitHub
-        </Link>{" "}
-        ...{" "}
+        </Link>
+        <i className="icon-[mage--stars-c-fill] text-yellow-300" role="img" aria-hidden="true"></i>
       </span>
     </section>
   );

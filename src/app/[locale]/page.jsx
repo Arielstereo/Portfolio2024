@@ -3,9 +3,9 @@
 import { useTranslations } from "next-intl";
 import { Bakbak_One, Michroma } from "next/font/google";
 import { Typewriter } from "react-simple-typewriter";
-import ShinyText from "@/components/ShinyText/ShinyText";
 import Link from "next/link";
 import Cloud from "@/components/Cloud";
+import GradientText from "@/components/GradientText/GradientText";
 
 const fontTitle = Bakbak_One({ subsets: ["latin"], weight: "400" });
 const fontSubTitle = Michroma({ subsets: ["latin"], weight: "400" });
@@ -13,14 +13,16 @@ const fontSubTitle = Michroma({ subsets: ["latin"], weight: "400" });
 export default function Home() {
   const text = useTranslations("Home");
   return (
-    <main className="flex flex-col lg:flex-row items-center justify-center mt-48 gap-4">
-      <div className="flex flex-col ml-8 gap-4">
-        <ShinyText
-          text="Ariel Martinez"
-          disabled={false}
-          speed={3}
+    <main className="flex flex-col lg:flex-row items-center justify-center mt-32 md:mt-48 gap-4">
+      <div className="flex flex-col text-center gap-4">
+        <GradientText
+          colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+          animationSpeed={8}
+          showBorder={false}
           className={`${fontTitle.className} text-6xl sm:text-8xl`}
-        />
+        >
+          Ariel Martinez
+        </GradientText>
         <div
           className={`${fontSubTitle.className} text-sky-400 text-xl sm:text-4xl ml-2`}
         >
@@ -39,7 +41,7 @@ export default function Home() {
             delaySpeed={1000}
           />
         </div>
-        <div className="mt-4 flex md:justify-center">
+        <div className="mt-4 flex justify-center">
           <Link
             href="/CV.pdf"
             download

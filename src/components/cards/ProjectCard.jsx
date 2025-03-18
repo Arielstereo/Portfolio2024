@@ -17,8 +17,6 @@ const ProjectCard = ({ img, description, url, name, tech1, tech2, tech3 }) => {
     });
   }, []);
 
-  const text = useTranslations("Project");
-
   return (
     <div
       data-aos="zoom-in-up"
@@ -32,11 +30,10 @@ const ProjectCard = ({ img, description, url, name, tech1, tech2, tech3 }) => {
             src={img}
             width={600}
             height={600}
-            className="w-fit rounded-lg mb-4 hover:scale-110 transform transition duration-300 ease-in-out"
+            className="w-fit rounded-lg mb-4 hover:scale-110 transform transition duration-300 ease-in-out mx-0 md:mx-2"
             alt="image"
           />
         </Link>
-
         <h2 className="text-2xl font-bold mb-2 text-slate-200">{name}</h2>
         <p className="text-slate-400">{description}</p>
       </div>

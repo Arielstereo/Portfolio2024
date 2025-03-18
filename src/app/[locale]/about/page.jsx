@@ -28,7 +28,7 @@ export default function About() {
             rotationInterval={2000}
           />
       </div>
-      <div className={`${font.className} text-green-300 text-xl sm:text-3xl w-[320px] h-80 lg:h-96 lg:w-1/2`}>
+      <div className={`${font.className} text-green-300 text-xl sm:text-3xl w-[320px] h-80 lg:h-96 lg:w-1/2 mb-8`}>
         <DecryptedText
           text={`${text("description")}`}
           animateOn="view"

@@ -39,7 +39,7 @@ const Cloud = () => {
   );
 
   return (
-    <div className="relative flex size-full items-center justify-center overflow-hidden">
+    <div className="relative flex size-64 md:size-full items-center justify-center overflow-hidden">
       <IconCloud images={images} />
     </div>
   );
