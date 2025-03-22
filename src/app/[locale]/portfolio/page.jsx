@@ -23,7 +23,7 @@ const Portfolio = () => {
 
   return (
     <section className="flex flex-col items-center justify-center gap-4 lg:gap-6 mt-32">
-      <h2 className="text-3xl md:text-4xl text-white mt-8">{text("subtitle")}</h2>
+      <h2 className="text-xl md:text-4xl text-white mt-8">{text("subtitle")}</h2>
       <ScriptCopyBtn
         className="px-2"
         showMultiplePackageOptions={true}

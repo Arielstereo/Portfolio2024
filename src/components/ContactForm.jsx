@@ -132,7 +132,7 @@ const ContactForm = () => {
               <Button
                 disabled={isLoading}
                 variant="outline"
-                className={isLoading ? "bg-gray-500" : ""}
+                className={isLoading ? "bg-gray-500" : "hover:bg-gray-300"}
                 type="submit"
               >
                 {isLoading ? (

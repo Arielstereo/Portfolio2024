@@ -80,8 +80,8 @@
         }
     },
     "About": {
-        "description": "Desarrollador web. Como FullStack realicé distintos proyectos con el stack MERN. Como frontend manejo distintas tecnologías: React, Next.js, Astro y Tailwind, entre otras. Contribuí en proyectos junto con otros perfiles usando la metodología SCRUM. Manejo de Git para el control de versiones.",
-        "skills": "Tecnologías"
+        "description": "En 2021, completé una diplomatura fullstack en desarrollo web en la UTN. Desde entonces, he seguido ampliando mis conocimientos de forma autodidacta, desarrollando proyectos personales y colaborando en equipos, principalmente como frontend.Como fullstack, he trabajado principalmente con el stack MERN. Además, tengo experiencia en control de versiones con Git y manejo diversas herramientas como Figma, Visual Studio Code, NPM, Yarn, Trello y Postman. También he participado en proyectos con otros desarrolladores aplicando la metodología SCRUM.",
+        "skills": "Habilidades"
     },
     "Contact": {
         "title": "Contacto",

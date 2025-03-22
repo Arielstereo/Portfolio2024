@@ -23,7 +23,6 @@ const ProjectCard = ({ img, description, url, name, tech1, tech2, tech3 }) => {
       className="flex flex-col justify-start items-start gap-2 w-full relative p-4 mt-8 rounded-lg"
     >
       <ShineBorder shineColor={["#A07CFE", "#FE8FB5", "#FFBE7B"]} />
-
       <div className="w-80 mb-2">
         <Link href={url} target="_blank">
           <Image
@@ -34,7 +33,7 @@ const ProjectCard = ({ img, description, url, name, tech1, tech2, tech3 }) => {
             alt="image"
           />
         </Link>
-        <h2 className="text-2xl font-bold mb-2 text-slate-200">{name}</h2>
+        <h2 className="text-lg md:text-2xl font-bold mb-2 text-slate-200">{name}</h2>
         <p className="text-slate-400">{description}</p>
       </div>
       <div className="flex flex-wrap gap-2 mb-12">
