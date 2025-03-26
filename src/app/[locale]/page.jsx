@@ -39,7 +39,7 @@ export default function Home() {
         </div>
         <div className="mt-4 flex justify-center">
           <Link
-            href="/CV.pdf"
+            href="/CV25.pdf"
             download
             target="_blank"
             className="group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-gray-800/30 backdrop-blur-lg px-4 md:px-8 py-2 font-semibold text-white transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:shadow-gray-600/50 border border-white/20 z-0 ring-1 ring-white"
